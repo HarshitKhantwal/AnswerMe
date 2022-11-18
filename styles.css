@@ -1,4 +1,7 @@
-
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -7,9 +10,12 @@
     background-color: transparent;
     margin:10vh;
 }
+h1{
+    font-size: 2rem;
+}
 .ball{
    
-    background-color: black;
+    background:radial-gradient(rgb(34, 33, 33),rgb(12, 11, 11));
     height: 400px;
     width: 400px;
     display: flex;
@@ -17,7 +23,7 @@
     align-items: center;
     border-radius: 50%;
     padding: 15px;
-    border: 15px solid rgb(57, 56, 56);
+    border: 15px solid black;
 }
 .triangle{
     
@@ -33,29 +39,40 @@
     
 }
 .inner--circle{
-    border: 7px solid white;
-    height: 260px;
-    width: 260px;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     background-image: url(bg.gif);
     
 }
 .content{
     background-color: transparent;
-    width: 120px;
-    font-weight: bold;
+    width: 130px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    position: relative;
-    margin-top: -120px;
-    margin-left: -60px;
+
     text-align: center;
+    
 }
 button{
     cursor: pointer;
     padding: 5px;
-   
-    border-radius: 15px;
+    height: 50px;
+    background-color:white;
+    width: 100px;
+    font-size: 1rem;
+    border: 2px solid white;
+    font-weight: 700;
+    border-radius: 25px;
     margin-top: 10px;
+    margin-left: 2px;
 }
 button:hover{
     background-color: black;
