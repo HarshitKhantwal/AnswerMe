@@ -1,0 +1,63 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin:10vh;
+}
+.ball{
+   
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 15px;
+    border: 15px solid rgb(57, 56, 56);
+}
+.triangle{
+    
+    width: 0;
+    height: 0;
+    position: relative;
+    margin-top: 95px;
+    margin-left: 10px;
+    
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 120px solid transparent;
+    
+}
+.inner--circle{
+    border: 7px solid white;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    background-image: url(bg.gif);
+    
+}
+.content{
+    background-color: transparent;
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    margin-top: -120px;
+    margin-left: -60px;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+   
+    border-radius: 15px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
